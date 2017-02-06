@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# minu info ja muljed
+#
+echo "Karl-Fredy Kruup" # väljastab mu nime ning seejärel teeb reavahetuse
+echo "ISP16" # väljastab ISP16 ning teeb reavahetuse
+echo "Õppeaine on põnev ja kasulik" # väljastab minu mulje ja teeb reavahetuse
+echo "Saan siiamaani päris hästi aru tunni teemadest" # väljastab minu mulje ja teeb reavahetuse
+#
+#skripti lõpp
