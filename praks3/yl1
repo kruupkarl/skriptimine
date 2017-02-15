@@ -8,5 +8,8 @@ kasutaja=`whoami`
 # väljastame muutuja väärtus koos seletusega
 echo "Tere, $kasutaja!"
 # loome ja väljastame kella
-kuupaev=`date +"%d. %B %H:%M"`
-echo "Tänane kuupäev ja kell on $kuupaev"
+kell=`date +"%H:%M"`
+echo "Kell on $kell"
+# loome ja väljastame kuupäeva
+kuupaev=`date +"%d. %B"`
+echo "Täna on $kuupaev"
