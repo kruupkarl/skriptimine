@@ -6,4 +6,7 @@
 # väärtus saadakse whoami käsust
 kasutaja=`whoami`
 # väljastame muutuja väärtus koos seletusega
-echo "Tere, $kasutaja"
+echo "Tere, $kasutaja!"
+# loome ja väljastame kella
+kuupaev=`date +"%d. %B %H:%M"`
+echo "Tänane kuupäev ja kell on $kuupaev"
