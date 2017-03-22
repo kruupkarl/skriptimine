@@ -1,0 +1,21 @@
+#!/bin/bash
+
+summa=0
+echo "Paaris(0) või paaritu(1)? "
+read mod
+
+if [ $mod -eq 0 ]; then
+	mo=0
+else
+	mo=1
+fi
+echo $mo
+for i in {1..23}
+do
+	jaak=$(($i%2))
+	if [ $jaak -eq $mo ]; then
+		echo -n "$i "
+	summa=$(($summa+$i))
+	fi
+done
+echo " arvude summa on: $summa"
