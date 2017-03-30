@@ -1,0 +1,24 @@
+#!/bin/bash
+echo "Sisesta ridade arv: "
+read rida
+echo "Sisesta tärnide arv reas: "
+read tarn
+for (( i = 1; i <= $rida; i++ ))
+do
+	if [ $i -eq 1 -o $i -eq $rida ]; then
+		echo -n "$i. "
+		for (( s = 1; s <= $tarn ; s++ ))
+		do
+		echo -n "*"
+	done
+	else
+echo -n  "$i. *"
+tyhik=$(($tarn - 2))
+		for (( a = 1; a <= $tyhik; a++ ))
+		do
+			echo -n " "
+		done
+echo -n "*"	
+fi
+echo ""
+done
